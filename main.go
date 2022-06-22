@@ -14,4 +14,6 @@ func main() {
 	w := wallet.NewWallet()
 	fmt.Println(w.PrivateKeyStr())
 	fmt.Printf(w.PublicKeyStr())
+	fmt.Printf(w.BlockchainAddress())
+
 }
